@@ -31,4 +31,4 @@ npm run dev
 ```
 
 ## 📄 License
-This project is licensed under the MIT License - see the LICENSE.txt file for details. Feel free to use, fork, and experiment.
+This project is licensed under the MIT License. See the LICENSE.txt file for details. Feel free to use, fork, and experiment.

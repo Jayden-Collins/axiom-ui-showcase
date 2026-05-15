@@ -384,7 +384,7 @@ export default function LandingPage() {
                             gap={0.15}
                             scale={ isMobile ? 1.2 : 2.5 }
                             onClick={() => {
-                                window.location.href = "https://axiom-ui.lemonsqueezy.com/checkout/buy/520c5ba0-f4af-4a7d-b658-136ef70bb40d?checkout[discount_code]=EARLY50"
+                                window.location.href = "https://github.com/Jayden-Collins/axiom-ui-showcase"
                             }}
                             label="Star on GitHub"
                             buttonColor="#9834c7"
