@@ -78,6 +78,7 @@ export default function LandingPage() {
 
     return (
         <div className={`relative flex flex-col items-center justify-center overflow-x-hidden
+            
             ${ isStarted ? 
                 "min-h-screen bg-white" : "h-screen overflow-hidden bg-[#280C34]"
             }`}
@@ -89,6 +90,14 @@ export default function LandingPage() {
                         Rendering scene...
                     </p>
                 )}
+                <a 
+                    href="https://x.com/JaydenxBuilds/status/2055425071561560473" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="flex w-full items-center justify-center bg-zinc-700/70 px-4 py-2 text-sm text-white font-sans hover:bg-zinc-600/70 transition-colors"
+                >
+                    Axiom UI has officially pivoted to open-source. Read the post-mortem on X ↗️
+                </a>
                 <div className="flex-[0.8] w-full"></div>
                 <div className="w-full h-37.5 md:h-75 flex shrink-0 justify-center">
                     <Toggle

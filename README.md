@@ -15,7 +15,7 @@ My goal with this project was to create an abstraction layer that allows 3D inte
 **[View Docs](https://axiom-ui-pink.vercel.app/docs)**
 
 ## 📖 The Story & Post-Mortem 
-I originally built and launched Axiom UI as a premium, commercial UI kit. While the interactive playground showed a **74%+ engagement rate**, which validated the core architectural concept, the launch gave me a much-needed reality check.
+I originally built and launched Axiom UI as a premium, commercial UI kit. While the interactive playground showed an almost 70% engagement rate, which validated the core architectural concept, the launch gave me a much-needed reality check.
 
 * **Open-Source Culture:** The community rightfully pointed out that developers expect foundational component libraries to be open-source and collaborative from day one. Gating a small set of foundational components behind a paywall violated that trust and standard. 
 * **The Performance Reality:** While the 3D components look highly polished, the technical reality of shipping `.glb` payloads and a Three.js bundle introduces heavy load times, especially on mobile networks. Ultimately, modern UI libraries must prioritize millisecond render times over visual flair.
